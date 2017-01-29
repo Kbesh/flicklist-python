@@ -1,9 +1,6 @@
 import webapp2
 import random
 
-#html boilerplate
-
-
 
 class Index(webapp2.RequestHandler):
 
@@ -41,5 +38,5 @@ class Index(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication([
     ('/', Index)
-    
+
 ], debug=True)
